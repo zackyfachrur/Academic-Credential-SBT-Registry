@@ -12,11 +12,12 @@ module.exports = {
       }
     },
     ganache: {
-      url: "http://127.0.0.1:7545",
+      url: "http://192.168.0.5:7545",
       accounts: [
         process.env.PK_ONE,
         process.env.PK_TWO,
         process.env.PK_THREE,
+        process.env.PK_FOUR,
       ],
     },
   },
