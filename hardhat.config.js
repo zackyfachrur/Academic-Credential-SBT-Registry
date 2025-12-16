@@ -19,6 +19,6 @@ module.exports = {
         process.env.PK_THREE,
         process.env.PK_FOUR,
       ],
-    },
+    }
   },
 };
